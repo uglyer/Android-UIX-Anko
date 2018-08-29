@@ -1,0 +1,24 @@
+{
+  "name": "UKotNativeCodeDemo",
+  "version": "0.0.1",
+  "description": "Framework to make high-performance SPA/WebApp. Render with web canvas.",
+  "keywords": [
+    "webapp",
+    "app",
+    "canvas",
+    "spa"
+  ],
+  "author": "uglyer",
+  "maintainers": [
+    "uglyer <root@wanda.sb> (http://uglyer.com)"
+  ],
+  "devDependencies": {
+    "jsdom": "^7.2.2",
+    "xml2js": "^0.4.17",
+    "xmlreader": "^0.2.3"
+  },
+  "scripts": {
+    "build": "npm install --registry=https://registry.npm.taobao.org && npm run buildRes ",
+    "buildRes": "node build_sdk_res.js"
+  }
+}

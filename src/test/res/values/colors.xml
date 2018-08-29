@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF48A8EC</color>
+    <color name="colorPrimaryDark">#3F51B5</color>
+    <color name="colorAccent">#FFEC6348</color>
+    <color name="colorDefaultBG">#f8f8f8</color>
+    <color name="bgTopBar">#373a3f</color>
+    <color name="bgTopBarIOS">#1b1a1f</color>
+</resources>
