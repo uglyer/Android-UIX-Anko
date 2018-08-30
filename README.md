@@ -31,3 +31,14 @@
 1. gradle sync
 2. gradle runDceKotlinJs & gradle runDceTestKotlinJs
 3. 访问 index.html
+
+## Anko 的编写方式
+```
+verticalLayout {
+    val name = editText()
+    button("Say Hello") {
+        onClick { toast("Hello, ${name.text}!") }
+    }
+}
+```
+更多请参考 https://github.com/Kotlin/anko/wiki/Anko-Layouts
