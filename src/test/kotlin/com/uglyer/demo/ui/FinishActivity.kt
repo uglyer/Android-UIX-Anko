@@ -16,9 +16,9 @@ import org.jetbrains.anko.textView
  * @Date: Created by uglyer in 2018/8/30.
  */
 
-class NextActivity : UKotActivity() {
+class FinishActivity : UKotActivity() {
     companion object {
-        val ROUTE = "com.uglyer.demo.ui.NextActivity"
+        val ROUTE = "com.uglyer.demo.ui.FinishActivity"
     }
 
     override val scroll: Boolean = false
@@ -26,9 +26,9 @@ class NextActivity : UKotActivity() {
 
     override fun render(): View = UKotUI {
         relativeLayout {
-            button("new Activity") {
+            button("close") {
                 onClick {
-                    startActivity(UKotIntent(fakeContext, ::FinishActivity))
+                    finish()
                 }
                 setTextSize(dip(10))
             }.lparams { centerInParent() }
