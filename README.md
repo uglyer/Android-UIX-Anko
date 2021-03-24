@@ -3,9 +3,9 @@
 项目基于 AndroidUIX
 > 移植Android的UI组件到Web端, 以Android的方式来制作高性能优体验的WebApp
 >
->  网站: http://androiduix.com
->
->  例子: http://androiduix.com/showcase/widget_sample/index.html#  
+>  例子: https://cn.uglyer.com/demo/2d/showcase/Android-UIX-Anko/index.html#  
+>  
+>  例子: https://cn.uglyer.com/demo/2d/showcase/widget_sample/index.html#
 >
 >  特点
 >
